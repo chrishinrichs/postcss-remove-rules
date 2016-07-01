@@ -1,0 +1,33 @@
+{
+  "name": "postcss-remove-rules",
+  "version": "1.0.0",
+  "description": "PostCSS plugin to remove rules by selector.",
+  "keywords": [
+    "postcss",
+    "css",
+    "postcss-plugin",
+    "remove",
+    "filter"
+  ],
+  "author": "Chris Hinrichs <chinrichs@godaddy.com>",
+  "license": "MIT",
+  "repository": "chrishinrichs/postcss-remove-rules",
+  "bugs": {
+    "url": "https://github.com/chrishinrichs/postcss-remove-rules/issues"
+  },
+  "homepage": "https://github.com/chrishinrichs/postcss-remove-rules",
+  "dependencies": {
+    "postcss": "^5.0.21"
+  },
+  "devDependencies": {
+    "ava": "^0.14.0",
+    "eslint": "^2.10.0",
+    "eslint-config-postcss": "^2.0.2"
+  },
+  "scripts": {
+    "test": "ava && eslint *.js"
+  },
+  "eslintConfig": {
+    "extends": "eslint-config-postcss/es5"
+  }
+}
